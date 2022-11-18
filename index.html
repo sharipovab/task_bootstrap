@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeks React</title>
+    <link rel="shortcut icon" href="link.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="" style="padding: 0; margin: 0;">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="brat.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#thirty">Browse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Landing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Accounts</a>
+                  </li>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search courses" aria-label="Search">
+                  </form>
+                </ul>
+                <div class="circles">
+                    <div class="bell">
+                        <a href="#"><img src="bell-fill.svg" alt=""></a>
+                    </div>
+                    <a href="#"><img src="avatar.jpg" alt="" class="black"></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="person justify-content-center align-items-center gap-5 container-fluid" style="background-color:#754ffe;">
+                <div class="text-light welcome">
+                    <h1 class="">Welcome to Geeks UI</h1>
+                    <h1>Learning Application</h1>
+                    <span class="fs-5 opacity-50">Hand-picked Instructor and expertly crafted</span><br>
+                    <span class="fs-5 opacity-50">courses, designed for the modern students and</span><br>
+                    <span class="fs-5 opacity-50">entrepreneur.</span><br>
+                    <div class="w-100"></div><br>
+                    <a class="btn btn-success" href="#thirty">Browse courses</a>
+                    <a class="btn btn-light" href="sign.html">Are you instructor?</a>
+                </div>
+                <div>
+                    <img src="hero.png" alt="" style="width: 100%;">
+                </div>
+          </div>
+
+          <div class="info_cont">
+
+            <div class="info" id="thirty">
+              <div class="bell1"><img src="camera-video.svg" alt=""></div>
+              <div>
+                <b><span>30,000 online courses</span></b><br>
+                <span class="opacity-75">Enjoy a variety of fresh topics</span>
+              </div>
+            </div>
+
+            <div class="info">
+              <div class="bell1"><img src="people-fill.svg" alt="" width="16" height="16"></div>
+              <div>
+                <b><span>Expert instruction</span></b><br>
+                <span>Find the right instructor for you</span>
+              </div>
+            </div>
+
+            <div class="info">
+              <div class="bell1"><img src="clock.svg" alt="" width="16" height="16"></div>
+              <div>
+                <b><span>Lifetime acces</span></b><br>
+                <span>Learn on your schedule</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="container mt-4">
+            <h4 id="rec">Recommended to you</h4>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div id="carouselExampleControls" class="carousel slide d-flex justify-content-evenly" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-flex w-100 justify-content-evenly">
+                      <div class="course node_1">
+                        <div class="card">
+                          <img src="course-pics/node.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Beginning Node.js, Express and MongoDB</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                              <div class="d-flex justify-content-between">
+                                <div>
+                                  <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                  <span class="pedname">Sina Ray</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                </svg></div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="course python_1">
+                        <div class="card">
+                          <img src="course-pics/python.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">The Python Course: build web application</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Ted Hawkins</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="course laravel_1">
+                        <div class="card">
+                          <img src="course-pics/laravel.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Laravel: The Ultimate Beginner's Guide</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Sobo Rikhan</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="course react_1">
+                        <div class="card">
+                          <img src="course-pics/react.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">React: how to easily create a website</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">April Noms</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="d-flex w-100 justify-content-evenly">
+                      <div class="course node_2">
+                        <div class="card">
+                          <img src="course-pics/node.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Beginning Node.js, Express and MongoDB</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                              <div class="d-flex justify-content-between">
+                                <div>
+                                  <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                  <span class="pedname">Sina Ray</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                </svg></div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course html_1">
+                        <div class="card">
+                          <img src="course-pics/html.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Html Full Course - Build a Website</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Ted Hawkins</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course js_1">
+                        <div class="card">
+                          <img src="course-pics/javascript.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">A Complete Beginner's Guide to JS</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Sobo Rikhan</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course react_2">
+                        <div class="card">
+                          <img src="course-pics/react.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">React: how to easily create a website</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">April Noms</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="d-flex w-100 justify-content-evenly">
+                      <div class="course js_2">
+                        <div class="card">
+                          <img src="course-pics/javascript.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">A Complete Beginner's Guide to JS</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                              <div class="d-flex justify-content-between">
+                                <div>
+                                  <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                  <span class="pedname">Sina Ray</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                </svg></div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course gatsby_1">
+                        <div class="card">
+                          <img src="course-pics/gatsby.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Revolutionize how you build the web</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Ted Hawkins</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course graph_1">
+                        <div class="card">
+                          <img src="course-pics/graphql.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">GraphQL: introduction to the web</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Sobo Rikhan</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course angular_1">
+                        <div class="card">
+                          <img src="course-pics/angular.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Angular - the complete guide for beginners</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">April Noms</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <button class="carousel-control-prev button_butt" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next button_butt" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-4">
+            <h4>Most popular</h4>
+          </div>
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div id="salam" class="carousel slide d-flex justify-content-evenly" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-flex w-100 justify-content-evenly">
+                      <div class="course node_3">
+                        <div class="card">
+                          <img src="course-pics/node.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Beginning Node.js, Express and MongoDB</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                              <div class="d-flex justify-content-between">
+                                <div>
+                                  <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                  <span class="pedname">Sina Ray</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                </svg></div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="course python_2">
+                        <div class="card">
+                          <img src="course-pics/python.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">The Python Course: build web application</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Ted Hawkins</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="course laravel_2 ">
+                        <div class="card">
+                          <img src="course-pics/laravel.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Laravel: The Ultimate Beginner's Guide</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Sobo Rikhan</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                  
+                      <div class="course react_3">
+                        <div class="card">
+                          <img src="course-pics/react.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">React: how to easily create a website</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">April Noms</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="d-flex w-100 justify-content-evenly">
+                      <div class="course node_4">
+                        <div class="card">
+                          <img src="course-pics/node.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Beginning Node.js, Express and MongoDB</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                              <div class="d-flex justify-content-between">
+                                <div>
+                                  <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                  <span class="pedname">Sina Ray</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                </svg></div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course html_2">
+                        <div class="card">
+                          <img src="course-pics/html.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Html Full Course - Build a Website</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Ted Hawkins</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course js_3">
+                        <div class="card">
+                          <img src="course-pics/javascript.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">A Complete Beginner's Guide to JS</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Sobo Rikhan</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course wordpress_1">
+                        <div class="card">
+                          <img src="course-pics/wordpress.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Wordpress: complete WordPress theme & plugin</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">April Noms</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="d-flex w-100 justify-content-evenly">
+                      <div class="course js_4">
+                        <div class="card">
+                          <img src="course-pics/javascript.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">A Complete Beginner's Guide to JS</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                              <div class="d-flex justify-content-between">
+                                <div>
+                                  <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                  <span class="pedname">Sina Ray</span>
+                                </div>
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                  <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                </svg></div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course gatsby_2">
+                        <div class="card">
+                          <img src="course-pics/gatsby.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Revolutionize how you build the web</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Ted Hawkins</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course graph_2">
+                        <div class="card">
+                          <img src="course-pics/graphql.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">GraphQL: introduction to the web</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">Sobo Rikhan</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+        
+                      <div class="course angular_2">
+                        <div class="card">
+                          <img src="course-pics/angular.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title fs-6">Angular - the complete guide for beginners</h5>
+                            <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                              <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                            </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                            <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                <span class="pedname">April Noms</span>
+                              </div>
+                              <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                              </svg></div>
+                            </div>
+        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <button class="carousel-control-prev button_butt" type="button" data-bs-target="#salam" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next button_butt" type="button" data-bs-target="#salam" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="container mt-3">
+            <h4>Trending</h4>
+          </div>
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div class="container">
+                <div class="row">
+                  <div id="hayr" class="carousel slide d-flex justify-content-evenly" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="d-flex w-100 justify-content-evenly">
+                          <div class="course js_5 ">
+                            <div class="card">
+                              <img src="course-pics/javascript.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">A Complete Beginner's Guide to JS</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                  <div class="d-flex justify-content-between">
+                                    <div>
+                                      <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                      <span class="pedname">Sina Ray</span>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                    </svg></div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="course gatsby_3">
+                            <div class="card">
+                              <img src="course-pics/gatsby.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">Revolutionize how you build the web</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">Ted Hawkins</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="course graph_3">
+                            <div class="card">
+                              <img src="course-pics/graphql.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">GraphQL: introduction to the web</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">Sobo Rikhan</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+                      
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="course angular_3">
+                            <div class="card">
+                              <img src="course-pics/angular.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">Angular - the complete guide for beginners</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">April Noms</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+                      
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="d-flex w-100 justify-content-evenly">
+                          <div class="course css_1">
+                            <div class="card">
+                              <img src="course-pics/css.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">CSS: ultimate course from beginner to advanced</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                  <div class="d-flex justify-content-between">
+                                    <div>
+                                      <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                      <span class="pedname">Sina Ray</span>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                    </svg></div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+            
+                          <div class="course html_3">
+                            <div class="card">
+                              <img src="course-pics/html.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">Html Full Course - Build a Website</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">Ted Hawkins</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+            
+                          <div class="course js_6">
+                            <div class="card">
+                              <img src="course-pics/javascript.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">A Complete Beginner's Guide to JS</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">Sobo Rikhan</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+            
+                              </div>
+                            </div>
+                          </div>
+            
+                          <div class="course react_4">
+                            <div class="card">
+                              <img src="course-pics/react.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">React: how to easily create a website</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">April Noms</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="carousel-item">
+                        <div class="d-flex w-100 justify-content-evenly">
+                          <div class="course node_5">
+                            <div class="card">
+                              <img src="course-pics/node.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">Beginning Node.js, Express and MongoDB</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 40m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                  <div class="d-flex justify-content-between">
+                                    <div>
+                                      <img src="people/avatar-1.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                      <span class="pedname">Sina Ray</span>
+                                    </div>
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                    </svg></div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="course python_3">
+                            <div class="card">
+                              <img src="course-pics/python.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">The Python Course: build web application</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 46m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-2.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">Ted Hawkins</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="course laravel_3  ">
+                            <div class="card">
+                              <img src="course-pics/laravel.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">Laravel: The Ultimate Beginner's Guide</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 2h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Beginner</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-3.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">Sobo Rikhan</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+                      
+                              </div>
+                            </div>
+                          </div>
+                      
+                          <div class="course react_5">
+                            <div class="card">
+                              <img src="course-pics/react.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title fs-6">React: how to easily create a website</h5>
+                                <p class="card-text fonnt"><img src="clock.svg" alt="" width="10" height="10" class=""> 1h 00m⠀<img src="reception-4.svg" alt="" width="10" height="10"> Intermediate</p>
+                                <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffaa46" class="bi bi-star-half" viewBox="0 0 16 16">
+                                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                </svg> <b class="fonnt" style="color: #ffaa46;">4,5</b> <m style="color: grey;" class="fonnt">(13,500)</m></p>
+                                <p class="card-text"><b>$600 <del class="opacity-50">$750</del></b></p>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                  <div>
+                                    <img src="people/avatar-4.jpg" alt="" width="30" height="30" style="border-radius: 50%;">
+                                    <span class="pedname">April Noms</span>
+                                  </div>
+                                  <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                  </svg></div>
+                                </div>
+                      
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+
+                    </div>
+        
+                    <button class="carousel-control-prev button_butt" type="button" data-bs-target="#hayr" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next button_butt" type="button" data-bs-target="#hayr" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="container">
+          <div class="d-flex opacity-75 justify-content-between container rights">
+            <p>© 2022 Geeks. All Rights Reserved.</p>
+            <span>
+              <a href="#thirty" class="link">Privacy</a>
+              <a href="#" class="link">Terms</a>
+              <a href="#" class="link">Feedback</a>
+              <a href="#" class="link">Support</a>
+            </span>
+          </div>
+    </div>
+</body>
+</html>
